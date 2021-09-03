@@ -37,6 +37,8 @@ python descriptor-preparation.py resources/molecules.smi
 
 **molecules.smi is the input, you may change to use for your own datasets.**
 
+* Your dataset **need** to have the format 'smiles,molecule_id'
+
 * First you are going to choose the fingeprint descriptor. You can choose more than one but just one at time.
 
 <img src="resources/fingerprintDescriptor.png" width="800">
