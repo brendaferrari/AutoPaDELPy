@@ -1,3 +1,4 @@
+❗❗❗ **AutoPaDELPy is running through a bugfix process** ❗❗❗
 # AutoPaDELPy: An automating tool for PaDELPy software
 
 AutoPaDELPy provides an automated user interface for PaDELPy software. It was created to provide a more friendly interaction with the software for the final user.
