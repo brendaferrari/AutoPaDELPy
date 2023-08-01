@@ -1,4 +1,6 @@
 import cmd
+from padelpy import padeldescriptor
+import glob
 
 class TridimensionalFunctions(cmd.Cmd):
     file = None
@@ -13,8 +15,6 @@ class TridimensionalFunctions(cmd.Cmd):
         """Autocorrelation3D [mol_dir]
         Calculate the Autocorrelation3D fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/tridimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -54,9 +54,6 @@ class TridimensionalFunctions(cmd.Cmd):
     def do_CPSA(self, mol_dir):
         """CPSA [mol_dir]
         Calculate the CPSA fingerprint"""
-
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/tridimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -139,9 +136,6 @@ class TridimensionalFunctions(cmd.Cmd):
         """LengthOverBreadth [mol_dir]
         Calculate the LengthOverBreadth fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
-
         xml_files = glob.glob("functions/descriptors/tridimensional_descriptors/*.xml")
         xml_files.sort()    
 
@@ -180,9 +174,6 @@ class TridimensionalFunctions(cmd.Cmd):
     def do_MomentOfInertia(self, mol_dir):
         """MomentOfInertia [mol_dir]
         Calculate the MomentOfInertia fingerprint"""
-
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/tridimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -223,9 +214,6 @@ class TridimensionalFunctions(cmd.Cmd):
         """PetitjeanShapeIndex [mol_dir]
         Calculate the PetitjeanShapeIndex fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
-
         xml_files = glob.glob("functions/descriptors/tridimensional_descriptors/*.xml")
         xml_files.sort()    
 
@@ -265,9 +253,6 @@ class TridimensionalFunctions(cmd.Cmd):
         """RDF [mol_dir]
         Calculate the RDF fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
-
         xml_files = glob.glob("functions/descriptors/tridimensional_descriptors/*.xml")
         xml_files.sort()    
 
@@ -306,9 +291,6 @@ class TridimensionalFunctions(cmd.Cmd):
     def do_WHIM(self, mol_dir):
         """WHIM [mol_dir]
         Calculate the WHIM fingerprint"""
-
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/tridimensional_descriptors/*.xml")
         xml_files.sort()    

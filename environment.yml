@@ -1,0 +1,14 @@
+name: auto-padelpy
+
+channels:
+  - conda-forge
+  - defaults
+
+#for windows uncomment this
+dependencies:
+  - python=3.8
+  - pandas=1.4.2
+  - numpy=1.22.3
+  - pip
+  - pip:
+    - padelpy==0.1.12

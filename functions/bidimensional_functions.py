@@ -1,4 +1,6 @@
 import cmd
+from padelpy import padeldescriptor
+import glob
 
 class BidimensionalFunctions(cmd.Cmd):
     file = None
@@ -12,9 +14,6 @@ class BidimensionalFunctions(cmd.Cmd):
     def do_AcidicGroupCount(self, mol_dir):
         """AcidicGroupCount [mol_dir]
         Calculate the AcidicGroupCount fingerprint"""
-
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -104,8 +103,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """ALOGP [mol_dir]
         Calculate the ALOGP fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -195,8 +193,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """AminoAcidCount [mol_dir]
         Calculate the AminoAcidCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -286,8 +283,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """APol [mol_dir]
         Calculate the APol fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -377,8 +373,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """AromaticAtomsCount [mol_dir]
         Calculate the AromaticAtomsCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -468,8 +463,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """AromaticBondsCount [mol_dir]
         Calculate the AromaticBondsCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -559,8 +553,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """AtomCount [mol_dir]
         Calculate the AtomCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -650,8 +643,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """Autocorrelation [mol_dir]
         Calculate the Autocorrelation fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -741,8 +733,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """BaryszMatrix [mol_dir]
         Calculate the Autocorrelation fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -832,8 +823,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """BasicGroupCount [mol_dir]
         Calculate the BasicGroupCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -923,8 +913,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """BCUT [mol_dir]
         Calculate the BCUT fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -1014,8 +1003,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """BondCount [mol_dir]
         Calculate the BondCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -1105,8 +1093,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """BPol [mol_dir]
         Calculate the BPol fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -1196,8 +1183,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """BurdenModifiedEigenvalues [mol_dir]
         Calculate the BurdenModifiedEigenvalues fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -1287,8 +1273,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """CarbonTypes [mol_dir]
         Calculate the CarbonTypes fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -1378,8 +1363,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """ChiChain [mol_dir]
         Calculate the ChiChain fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -1469,8 +1453,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """ChiCluster [mol_dir]
         Calculate the ChiCluster fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -1560,8 +1543,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """ChiPathCluster [mol_dir]
         Calculate the ChiPathCluster fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -1651,8 +1633,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """ChiPath [mol_dir]
         Calculate the ChiPath fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -1742,8 +1723,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """Constitutional [mol_dir]
         Calculate the Constitutional fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -1833,8 +1813,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """Crippen [mol_dir]
         Calculate the Crippen fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -1924,8 +1903,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """DetourMatrix [mol_dir]
         Calculate the DetourMatrix fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -2015,8 +1993,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """EccentricConnectivityIndex [mol_dir]
         Calculate the EccentricConnectivityIndex fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -2106,8 +2083,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """EStateAtomType [mol_dir]
         Calculate the EStateAtomType fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -2197,8 +2173,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """ExtendedTopochemicalAtom [mol_dir]
         Calculate ExtendedTopochemicalAtom fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -2289,8 +2264,7 @@ class BidimensionalFunctions(cmd.Cmd):
         Calculate FMF fingerprint"""
 
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -2380,8 +2354,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """FragmentComplexity [mol_dir]
         Calculate FragmentComplexity fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -2471,8 +2444,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """HBondAcceptorCount [mol_dir]
         Calculate HBondAcceptorCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -2562,8 +2534,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """HBondDonorCount [mol_dir]
         Calculate HBondDonorCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -2653,8 +2624,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """HybridizationRatio [mol_dir]
         Calculate HybridizationRatio fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -2744,8 +2714,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """InformationContent [mol_dir]
         Calculate InformationContent fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -2835,8 +2804,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """IPMolecularLearning [mol_dir]
         Calculate IPMolecularLearning fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -2926,8 +2894,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """KappaShapeIndices [mol_dir]
         Calculate KappaShapeIndices fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -3017,8 +2984,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """KierHallSmarts [mol_dir]
         Calculate KierHallSmarts fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -3108,8 +3074,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """LargestChain [mol_dir]
         Calculate LargestChain fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -3199,8 +3164,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """LargestPiSystem [mol_dir]
         Calculate LargestPiSystem fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -3290,8 +3254,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """LongestAliphaticChain [mol_dir]
         Calculate LongestAliphaticChain fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -3381,8 +3344,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """MannholdLogP [mol_dir]
         Calculate MannholdLogP fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -3472,8 +3434,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """McGowanVolume [mol_dir]
         Calculate McGowanVolume fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -3563,8 +3524,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """MDE [mol_dir]
         Calculate MDE fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -3654,8 +3614,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """MLFER [mol_dir]
         Calculate MLFER fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -3745,8 +3704,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """PathCount [mol_dir]
         Calculate PathCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -3836,8 +3794,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """PetitjeanNumber [mol_dir]
         Calculate PetitjeanNumber fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -3927,8 +3884,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """RingCount [mol_dir]
         Calculate RingCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -4018,8 +3974,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """RotatableBondsCount [mol_dir]
         Calculate RotatableBondsCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -4109,8 +4064,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """RuleOfFive [mol_dir]
         Calculate RuleOfFive fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -4200,8 +4154,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """Topological [mol_dir]
         Calculate Topological fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -4291,8 +4244,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """TopologicalCharge [mol_dir]
         Calculate TopologicalCharge fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -4382,8 +4334,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """TopologicalDistanceMatrix [mol_dir]
         Calculate TopologicalDistanceMatrix fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -4473,8 +4424,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """TPSA [mol_dir]
         Calculate TPSA fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -4564,8 +4514,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """VABC[mol_dir]
         Calculate VABC fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -4655,8 +4604,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """VAdjMa[mol_dir]
         Calculate VAdjMa fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -4746,8 +4694,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """WalkCount [mol_dir]
         Calculate WalkCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -4837,8 +4784,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """Weight [mol_dir]
         Calculate Weight fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -4928,8 +4874,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """WeightedPath [mol_dir]
         Calculate WeightedPath fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -5019,8 +4964,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """WienerNumbers [mol_dir]
         Calculate WienerNumbers fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -5110,8 +5054,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """XLogP [mol_dir]
         Calculate XLogP fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    
@@ -5201,8 +5144,7 @@ class BidimensionalFunctions(cmd.Cmd):
         """ZagrebIndex [mol_dir]
         Calculate ZagrebIndex fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
+
 
         xml_files = glob.glob("functions/descriptors/bidimensional_descriptors/*.xml")
         xml_files.sort()    

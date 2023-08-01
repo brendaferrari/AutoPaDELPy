@@ -1,4 +1,6 @@
 import cmd
+from padelpy import padeldescriptor
+import glob
 
 class FingerprintFunctions(cmd.Cmd):
     file = None
@@ -12,9 +14,6 @@ class FingerprintFunctions(cmd.Cmd):
     def do_AtomPairs2DCount(self, mol_dir):
         """AtomPairs2DCount [mol_dir]
         Calculate the AtomPairs2DFingerprintCount fingerprint"""
-
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
@@ -55,9 +54,6 @@ class FingerprintFunctions(cmd.Cmd):
     def do_AtomPairs2D(self, mol_dir):
         """AtomPairs2D [mol_dir]
         Calculate the AtomPairs2DFingerprinter fingerprint"""
-
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
@@ -100,9 +96,6 @@ class FingerprintFunctions(cmd.Cmd):
         """EState [mol_dir]
         Calculate the EStateFingerprinter fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
-
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
 
@@ -143,9 +136,6 @@ class FingerprintFunctions(cmd.Cmd):
     def do_CDKextended(self, mol_dir):
         """CDKextended[mol_dir]
         Calculate the ExtendedFingerprinter fingerprint"""
-
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
@@ -188,9 +178,6 @@ class FingerprintFunctions(cmd.Cmd):
         """CDK [mol_dir]
         Calculate the Fingerprinter fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
-
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
 
@@ -230,9 +217,6 @@ class FingerprintFunctions(cmd.Cmd):
     def do_CDKgraphonly(self, mol_dir):
         """CDKgraphonly [mol_dir]
         Calculate the GraphOnlyFingerprinter fingerprint"""
-
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
@@ -275,9 +259,6 @@ class FingerprintFunctions(cmd.Cmd):
         """KlekotaRothCount [mol_dir]
         Calculate the KlekotaRothFingerprintCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
-
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
 
@@ -318,9 +299,6 @@ class FingerprintFunctions(cmd.Cmd):
     def do_KlekotaRoth(self, mol_dir):
         """KlekotaRoth [mol_dir]
         Calculate the KlekotaRothFingerprinter fingerprint"""
-
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
@@ -363,9 +341,6 @@ class FingerprintFunctions(cmd.Cmd):
         """MACCS [mol_dir]
         Calculate the MACCSFingerprinter fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
-
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
 
@@ -406,9 +381,6 @@ class FingerprintFunctions(cmd.Cmd):
     def do_PubChem(self, mol_dir):
         """PubChem [mol_dir]
         Calculate the PubChemFingerprinter fingerprint"""
-
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
@@ -451,9 +423,6 @@ class FingerprintFunctions(cmd.Cmd):
         """SubstructureCount [mol_dir]
         Calculate the SubstructureFingerprintCount fingerprint"""
 
-        from padelpy import padeldescriptor
-        import glob
-
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
 
@@ -494,9 +463,6 @@ class FingerprintFunctions(cmd.Cmd):
     def do_Substructure(self, mol_dir):
         """Substructure [mol_dir]
         Calculate the SubstructureFingerprinter fingerprint"""
-
-        from padelpy import padeldescriptor
-        import glob
 
         xml_files = glob.glob("functions/descriptors/fingerprint_descriptors/*.xml")
         xml_files.sort()
