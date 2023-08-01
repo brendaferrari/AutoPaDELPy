@@ -1,4 +1,6 @@
 ❗❗❗ **AutoPaDELPy is running through a bugfix process** ❗❗❗
+[![DOI](https://zenodo.org/badge/402574416.svg)](https://zenodo.org/badge/latestdoi/402574416)
+
 # AutoPaDELPy: An automating tool for PaDELPy software
 
 AutoPaDELPy provides an automated user interface for PaDELPy software. It was created to provide a more friendly interaction with the software for the final user.
